@@ -1,0 +1,29 @@
+name: infanteapp
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  lottie: ^2.7.0
+  device_apps: ^2.2.0
+  usage_stats: ^1.2.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/ingreso_animation.json
+  - assets/galeria_animation.json
+  - assets/web_animation.json
+  - assets/aplicacion_animation.json
